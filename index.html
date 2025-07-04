@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Science Study Adda</title>
+	<link rel="stylesheet" type="text/css" href="rbse.css">
+</head>
+<body>
+<header class="main-header">
+	<h1>
+		Science Study Adda
+	</h1>
+  <img src="logo5.png" class="img center-left" alt="decoration">
+</header>
+<nav>
+	<a href="#Home">Home</a>
+	<a href="#Syllabus">Syllabus</a>
+	<a href="#Vidios">Videos</a>
+	<a href="#Notes">Notes</a>
+	<a href="#Practice-Set">Practice-Set</a>
+	<a href="#Contact-Us">Contact Us</a>
+</nav>
+<main>
+<section id="home">
+	<div class="home-item">
+		<h2 class="gradient-heading">
+		Home
+	</h2>
+	<h3>
+		Welcome 
+	</h3>
+	<h4>
+		Ye site students ke syllabus, Notes or Lectures ke Easy Access ke liye Hai
+		<br>
+		Iske andar RBSE class 12th(Science) ke sabhi Subjects ke Syllabus, Notes, Lectures, Practice Set Diye gaye hai. Hamari Website Ko use kare or paye ek click main alpni exam se releted sabhi Study Meterial Ek Jagah... 
+	</h4>
+	</div> 
+</section>
+<section id="Syllabus">
+	<div class="syllabus-title">Syllabus</div>
+	<div class="Syllabus-grid">
+	<div class="Syllabus-item">
+		<a href="pdf1.pdf" target="-blank">
+		<img src="chemistry1.jpg" width="32%" border="4px" class="img-style-1">
+	</a>
+	<p>Chemistry</p>
+	</div>
+	<div class="Syllabus-item"><a href="pdf2.pdf" target="-blank">
+		<img src="bio2.jpg" width="32%" border="4px" class="img-style-1">
+	</a>
+	<p>Biology</p>
+	</div>
+	<div class="Syllabus-item">
+		<a href="pdf4.pdf" target="-blank">
+		<img src="english1.png" width="32%" border="4px" class="img-style-1">
+	</a>
+	<p>English</p>
+	</div>
+	<div class="Syllabus-item">
+		<a href="pdf3.pdf" target="-blank">
+		<img src="Mathss.jpg" width="32%" border="4px" class="img-style-1">
+	</a>
+	<p>Mathematics</p>
+	</div>
+	<div class="Syllabus-item"><a href="pdf5.pdf" target="-blank">
+		<img src="phy.jpg" width="32%" border="4px" class="img-style-1">
+	</a>
+	<p>Physics</p>
+	</div>
+	<div class="Syllabus-item">
+		<a href="pdf6.pdf" target="-blank">
+		<img src="Hindi1.jpg" width="32%" border="4px" class="img-style-1">
+	</a>
+	<p>Hindi</p>
+</div>
+	</div>
+</section>
+
+<section id="Vidios">
+  <div class="section-title">Videos</div>
+  <div class="video-grid">
+    <div class="video-item">
+      <iframe src="https://www.youtube.com/embed/jZVWtERDggQ?si=iP9DUFY1PA3CKWNm" allowfullscreen></iframe>
+      <p>Physics</p>
+    </div>
+
+    <div class="video-item">
+      <iframe src="https://www.youtube.com/embed/UQ3FOAjameI?si=vrBcEnyiy9cgir9s" allowfullscreen></iframe>
+      <p>Chemistry</p>
+    </div>
+
+    <div class="video-item">
+      <iframe src="https://www.youtube.com/embed/VK4A7o_V7Hs?si=IKNpuH_z7P6r9ec9" allowfullscreen></iframe>
+      <p>Biology</p>
+    </div>
+
+    <div class="video-item">
+      <iframe src="https://www.youtube.com/embed/P-X7vxRipQI?si=pl2xNSsOXvgRFNQx" allowfullscreen></iframe>
+      <p>Mathematics</p>
+    </div>
+
+    <div class="video-item">
+      <iframe src="https://www.youtube.com/embed/fpDicb58P3w?si=ST4jb7kIGtgLG4RG" allowfullscreen></iframe>
+      <p>Hindi</p>
+    </div>
+
+    <div class="video-item">
+      <iframe src="https://www.youtube.com/embed/NeTxpG__RZk?si=5zBWnbjOpjwg7UwZ" allowfullscreen></iframe>
+      <p>English</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  body {
+      background: linear-gradient(to bottom left, #33ccff 0%, #ff99cc 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #Vidios {
+    border: 3px solid #333;
+    padding: 60px 25px 30px;
+    max-width: 1290px;
+    margin: 67px auto;
+    position: relative;
+    border-radius: 9px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .section-title {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(to bottom, #ff99cc 0%, #ffff66 100%);
+    padding: 8px 40px;
+    font-size: 28px;
+    font-weight: bold;
+    border: 2px solid #333;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  .video-item {
+    background: #fdfdfd;
+    border-radius:3px;
+    border: 1px solid black;
+    padding: 10px;
+    transition: transform 0.1s, box-shadow 0.1s;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .video-item:hover {
+    transform: translateY(-11px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .video-item iframe {
+    width: 100%;
+    height: 230px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .video-item p {
+    margin-top: 12px;
+    display: inline-block;
+    padding: 6px 16px;
+    background: transparent;
+    border: 2px solid #333;
+    color: #333;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .video-item p:hover {
+    background-color: transparent;
+    color: black;
+  }
+
+  @media (max-width: 900px) {
+    .video-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .video-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .section-title {
+      font-size: 22px;
+      padding: 6px 20px;
+    }
+  }
+</style>
+
+<section id="Notes">
+	<div class="notes-title">Notes</div>
+	<div class="Notes-grid">
+		<div class="Notes-item">
+			<a href="https://rbsesolutions.in/rbse-solutions-for-class-12-chemistry/" target="-blank">
+		<img src="chemistry1.jpg" width="32%" border="4px" class="img-style-2">
+	</a>
+	<p>Chemistry</p>
+</div>
+<div class="Notes-item">
+			<a href="https://rbsesolutions.in/rbse-solutions-for-class-12-maths/" target="-blank">
+		<img src="maths.jpg" width="32%" border="4px" class="img-style-2">
+	</a>
+	<p>Mathematics</p>
+</div>
+<div class="Notes-item">
+			<a href="https://rbsesolutions.in/rbse-solutions-for-class-12-physics/" target="-blank">
+		<img src="physics2.jpg" width="32%" border="4px" class="img-style-2">
+	</a>
+	<p>Physics</p>
+</div>
+<div class="Notes-item">
+			<a href="https://rbsesolutions.in/rbse-solutions-for-class-12-biology/" target="-blank">
+		<img src="bio1.jpg" width="32%" border="4px" class="img-style-2"> 
+	</a>
+	<p>Biology</p>
+</div>
+<div class="Notes-item">
+			<a href="https://rbsesolutions.in/rbse-solutions-for-class-12-hindi-anivarya/" target="-blank">
+		<img src="hindi1.jpg" width="32%" border="4px" class="img-style-2">
+	</a>
+	<p>Hindi</p>
+</div>
+<div class="Notes-item">
+			<a href="https://rbsesolutions.in/rbse-solutions-for-class-12-english-compulsory/" target="-blank">
+		<img src="english1.png" width="32%" border="4px" class="img-style-2">
+	</a>
+	<p>English</p>
+</div>
+</div>
+</section>
+<section id="Practice-Set">
+	<div class="set-title">Practice Set</div>
+	<div class="Set-grid">
+		<div class="Set-item">
+			<a href="k4.pdf" target="-blank">
+			<img src="phy2.jpg" class="img-style-3" width="32%" border="4px"></a>
+			<p>physics</p>
+		</div>
+		<div class="Set-item">
+			<a href="k6.pdf" target="-blank">
+			<img src="che.jpg" class="img-style-3" width="32%" border="4px"></a>
+			<p>Chemistry</p>
+		</div>
+		<div class="Set-item">
+			<a href="k7.pdf" target="-blank">
+			<img src="bioo.jpg" class="img-style-3" width="32%" border="4px"></a>
+			<p>Biology</p>
+		</div>
+		<div class="Set-item">
+			<a href="k1.pdf" target="-blank">
+			<img src="eng.jpg" class="img-style-3" width="32%" border="4px"></a>
+			<p>English</p>
+		</div>
+		<div class="Set-item">
+			<a href="k2.pdf" target="-blank">
+			<img src="hin.jpg" class="img-style-3" width="32%" border="4px"></a>
+			<p>Hindi</p>
+		</div>
+		<div class="Set-item">
+			<a href="k3.pdf" target="-blank">
+			<img src="mat.jpg" class="img-style-3" width="32%" border="4px"></a>
+			<p>Mathematics</p>
+		</div>
+	</div>
+</section>
+<section id="Contact-Us">
+	<div class="Cu"> <h2>
+		Our Founder
+	</h2>
+	
+	<img src="kka.jpg" class="img-style-4" align="center" border="2px">
+	<h3>Kartik Joshi</h3>
+	 <div class="fitem"> <a href="https://youtube.com/@kartikjoshi-e1r?si=IvkRdriTuYYAoz7K" target="-blank">Youtube</a>
+	<a href="https://www.instagram.com/kartik_sharma1119?igsh=MWV3enZvNGxwaDIzdA==" target="-blank">Instagram</a>
+	<a href="https://www.threads.com/@kartik_sharma1119" target="-blank">Threads</a>
+	<br>
+	<p><b>Mail: Kartikjoshi38058@gmail.com</b></p>
+	<br>
+	<p><b>Contact No: 8955565824</b></p>
+	<br>
+	<p><b>Address: Near Fort Vyas Joshi Gali, Malakhera (Alwar) [Rajasthan]</b></p>
+	  </div>
+	<br><p>
+    <b> Kartik Joshi</b> established <b><i> Science Study Adda </i></b> in Year 2025 with the vision to provide all <b> RBSE Science Stream students</b> with complete study material related to their education and exams — all in one place and just a single click away. 
+    We aim to offer easy and timely access to notes, question papers, model tests, videos, and other essential resources, 
+    so that students can focus on their preparation and move confidently toward success.. 
+    With a passion for excellence and innovation, he/she has played a key role in shaping the identity and success of the organization.
+        </p>
+  </div>
+</section>
+</main>
+<footer>
+	<a href="#">FAQ's</a>
+	<a href="#">Terms</a>
+	<a href="#">Privacy Policy</a>
+	<a href="#Contact Us">Contact Us</a>
+	<a href="#">&copy; 2025</a>
+</footer>
+</body>
+</html>
