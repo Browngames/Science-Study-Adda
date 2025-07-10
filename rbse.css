@@ -344,5 +344,39 @@ footer a:hover{
 	text-decoration: underline;
 	scale:(1.1);
 }
+@media (max-width: 900px) {
+  .Syllabus-grid,
+  .video-grid,
+  .Set-grid,
+  .Notes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
+@media (max-width: 600px) {
+  .Syllabus-grid,
+  .video-grid,
+  .Set-grid,
+  .Notes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .main-header h1 {
+    font-size: 36px;
+  }
+
+  .section-title,
+  .set-title,
+  .notes-title,
+  .syllabus-title {
+    font-size: 20px;
+    padding: 6px 20px;
+  }
+}
 </style>
