@@ -19,7 +19,7 @@ html{
   color: white;
   text-align: center;
   padding: 100px;
-  position:fixed; /* Important for absolute positioning inside */
+  position:reletive; /* Important for absolute positioning inside */
   overflow: hidden;
   
 }
@@ -27,7 +27,6 @@ nav {
 	background: linear-gradient(to bottom, #3333cc 0%, #6699ff 100%);
 	overflow: hidden;
 	padding: 14px;
-	position:fixed;
 }
 nav a{
 	font-size: 20px;
