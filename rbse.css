@@ -19,7 +19,7 @@ html{
   color: white;
   text-align: center;
   padding: 100px;
-  position:sticky; /* Important for absolute positioning inside */
+  position:fixed; /* Important for absolute positioning inside */
   overflow: hidden;
   
 }
