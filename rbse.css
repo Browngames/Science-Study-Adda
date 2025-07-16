@@ -48,7 +48,7 @@ section:nth-child(even) {
 }
 
 .main-header h1 {
-  font-size: 100px;
+  font-size: 8vw;
   margin: 0;
   text-align: center;
   color: white;
